@@ -1,1 +1,9 @@
 theme: jekyll-theme-minimal
+
+title: Nick Timkovich
+description: Now on the Internet!
+
+google_analytics: UA-89647110-1
+
+timezone: America/Chicago
+encoding: utf-8

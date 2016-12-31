@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<h1>Commentary</h1>
+
+<p>
+It was my understanding
+<a href="https://www.google.com/search?q=it+was+my+understanding+that+there+would+be+no+math">
+that there would be no coding.
+</a>
+</p>
+
+<hr>
+{% for post in site.posts limit:50 %}
+    <div class="padded-content">
+        <a href="{{ post.url }}" class="post-excerpt">
+            <h2 class="title">{{ post.title }}</h2>
+        </a>
+        <p><info datetime="{{ page.date | date: "%Y-%m-%d" }}">
+        {{ post.date | date_to_long_string }}
+    </info></p>
+        <!-- {% if post.description %} -->
+        <span class="body">{{ post.description | markdownify }}</span>
+        <!-- {% else %}
+        <span class="body">{{ post.excerpt | strip_html }}</span>
+        {% endif %} -->
+        <p><a href="{{ post.url }}">Read</a></p>
+    </div>
+{% endfor %}

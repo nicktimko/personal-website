@@ -1,0 +1,10 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+    background-color: #ddd;
+}
+
+/* this doesn't work... */
