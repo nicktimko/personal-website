@@ -10,5 +10,6 @@ Prepared with my 100% undeniable facts and smooth delivery, I ended up winning t
 <!-- ![montage]({filename}/images/uls/montage.png) -->
 [<img src="{filename}/images/uls/coverslide.jpg" height="260" width="443">][pdf]
 
+[Mirror](https://drive.google.com/file/d/0B1zqAXydzfECYkVVeFdwZXNfVVU/view?usp=sharing)
 
-[pdf]: {filename}/images/uls/uls-timkovich-assembly.pdf
+[pdf]: https://s3.us-east-2.amazonaws.com/static-nick-solutions/uls-timkovich-assembly.pdf

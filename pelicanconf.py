@@ -6,7 +6,7 @@ AUTHOR = 'Nick Timkovich'
 SITENAME = 'Nick\'s Solutions'
 SITETITLE = 'Nick\'s Solutions'
 SITESUBTITLE = 'Fixing things, broken or not.'
-SITEDESCRIPTION = 'asf'
+SITEDESCRIPTION = 'Now on the internet!'
 SITEURL = 'https://nick.solutions'
 
 SITELOGO = '/images/profile.jpg'
@@ -55,3 +55,5 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+
+GOOGLE_ANALYTICS = 'UA-89647110-1'
