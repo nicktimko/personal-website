@@ -49,6 +49,7 @@ SOCIAL = (
     ('linkedin', 'https://linkedin.com/in/nicktimkovich'),
     ('github', 'https://github.com/nicktimko'),
     ('twitter', 'https://twitter.com/nicktimko'),
+    ('stack-overflow', 'https://stackoverflow.com/users/194586/nick-t'),
 )
 
 DEFAULT_PAGINATION = 10

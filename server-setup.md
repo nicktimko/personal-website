@@ -46,7 +46,7 @@ chown ec2-user:ec2-user /srv/staticsite
 chmod 755 /srv/staticsite
 ```
 
-Pushing built site: `rsync -av --delete pel/output/ me:/srv/staticsite/`
+Pushing built site: `rsync -av --delete output/ me:/srv/staticsite/`
 
 ### Local Python 3 envs
 
